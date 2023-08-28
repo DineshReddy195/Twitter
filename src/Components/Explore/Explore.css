@@ -1,0 +1,30 @@
+.explore{
+    height: 100vh;
+    width: 90%;
+    padding: 0 10px;
+    overflow: auto;
+}
+.explore-sets{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    border-bottom: 3px solid black;
+    height: fit-content;
+    margin-top: 5%;
+}
+.down-page{
+    margin-top: 5%;
+}
+.sports{
+    color: grey;
+    text-decoration: none;
+}
+.news{
+    color: grey;
+    text-decoration: none;
+}
+.entertainment{
+    color: grey;
+    text-decoration: none;
+}

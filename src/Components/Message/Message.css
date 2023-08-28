@@ -1,0 +1,39 @@
+.message{
+    height: 100vh;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.message-details{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    width: 200px !important;
+    margin-left: auto !important;
+}
+.new-message{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    width: 60% !important;
+}
+.inbox{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.right-panel{
+    margin: 200px auto;
+    margin-left: 120px;
+}

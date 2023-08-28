@@ -1,0 +1,33 @@
+.lists{
+    height: 100vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    overflow-y: auto;
+}
+.list-image{
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+.list-mapped{
+    display: flex;
+    margin-left: 25px;
+}
+.mapped-content{
+    margin-left: 20px;
+}
+.span-content{
+    margin-left: 15px;
+}
+.pinned-lists{
+    margin-top: 20px;
+}
+.widgets-list{
+    display: flex;
+    height: 100vh;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}

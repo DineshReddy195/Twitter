@@ -1,0 +1,31 @@
+.notifications{
+    height: 100vh;
+    position: absolute;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.all-details{
+    margin-top: 30px;
+    gap: 180px;
+    height: fit-content;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid var(--twitter-background);
+}
+.down-panel{
+    margin-top: 15%;
+}
+.verified{
+    color: grey;
+    text-decoration: none;
+}
+.mention{
+    color: grey;
+    text-decoration: none;
+}
+.all-info{
+    color: grey;
+    text-decoration: none;
+}
