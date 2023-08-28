@@ -1,11 +1,9 @@
 import { Routes,Route, Navigate } from 'react-router-dom';
 // import './App.css';
-import Signin from './Components/Authentication/Signin';
 import Feed from './Components/Feed/Feed';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Widgets from './Components/Widgets/Widgets';
 import Home from './Components/Home/Home';
-import Signup from './Components/Authentication/Signup';
 import ProtectedRoutes from './Components/Services/ProtectedRoutes';
 import Lists from './Components/Lists/Lists';
 import Explore from './Components/Explore/Explore';
@@ -26,14 +24,8 @@ import Entertainment from './Components/Explore/Entertainment';
 function App() {
   return (
     <div className="App">
-       {/* <div>
-        <Routes>
-      <Route path='/signin' element={<Signin/>}/>
-        <Route path='/signup' element={<Signup/>}/>
-        </Routes>
-      </div>  */}
      <Sidebar/>
-     
+     <Widgets/>
       <div style={{margin:'10px 22%'}}>
           <Routes>
         <Route path='/' element={<ProtectedRoutes/>}>
@@ -63,10 +55,6 @@ function App() {
         </Route>
       </Routes>
       </div>
-      {/* <Sidebar/>
-      <Feed/>
-      <Widgets/> */}
-      <Widgets/>
     </div>
   );
 }
