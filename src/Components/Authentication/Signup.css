@@ -1,0 +1,33 @@
+/* .register-div{
+    height: 660px;
+}
+.main-div{
+    display: flex;
+    margin-left: 360px;
+}
+.name{
+    margin-top: 25px;
+    width: 300px;
+    margin-left: 75px;
+}
+.register:hover{
+    transform: scale(1.2);
+}
+.warrior{
+    filter: drop-shadow(0px 20px 20px black);
+}
+.register{
+    margin-left: 150px;
+}
+.container .all-divs{
+    display: flex;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    padding: 25px;
+} */
+.all-divs{
+    margin: 20px auto;
+    margin-left: 210px;
+}
