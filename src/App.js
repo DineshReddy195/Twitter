@@ -1,12 +1,12 @@
 import { Routes,Route, Navigate } from 'react-router-dom';
 // import './App.css';
-import Signin from './Components/Authentication/Signin';
+//import Signin from './Components/Authentication/Signin';
 import Feed from './Components/Feed/Feed';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Widgets from './Components/Widgets/Widgets';
 import Home from './Components/Home/Home';
-import Signup from './Components/Authentication/Signup';
-import ProtectedRoutes from './Components/Services/ProtectedRoutes';
+// import Signup from './Components/Authentication/Signup';
+// import ProtectedRoutes from './Components/Services/ProtectedRoutes';
 import Lists from './Components/Lists/Lists';
 import Explore from './Components/Explore/Explore';
 import Notifications from './Components/Notifications/Notifications';
@@ -36,7 +36,7 @@ function App() {
      
       <div style={{margin:'10px 22%'}}>
           <Routes>
-        <Route path='/' element={<ProtectedRoutes/>}>
+        {/* <Route path='/' element={<ProtectedRoutes/>}> */}
         <Route path='/' element={<Home/>}/>
         <Route path='/explore' element={<Explore/>}>
         <Route path='sports' element={<Sports/>}/>
@@ -60,7 +60,7 @@ function App() {
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/more' element={<More/>}/>
         <Route path='*' element={<Pagenotfound/>}/>
-        </Route>
+        {/* </Route> */}
       </Routes>
       </div>
       {/* <Sidebar/>

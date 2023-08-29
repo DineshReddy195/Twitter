@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import './Lists.css'
-import Sidebar from '../Sidebar/Sidebar';
-import Widgets from '../Widgets/Widgets';
+
 
 
 const url =

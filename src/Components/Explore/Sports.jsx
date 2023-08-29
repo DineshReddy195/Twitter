@@ -2,14 +2,6 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 
-// const url = 'https://football-prediction-api.p.rapidapi.com/api/v2/predictions?market=classic&iso_date=2018-12-01&federation=UEFA';
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': 'b56894877bmsh2480b8128479b86p1b5634jsnb9d0a76c542f',
-// 		'X-RapidAPI-Host': 'football-prediction-api.p.rapidapi.com'
-// 	}
-// };
 
 function Sports() {
     const [sports,setSports]=useState([]);

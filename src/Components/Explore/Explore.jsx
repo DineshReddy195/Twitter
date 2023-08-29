@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Sidebar from '../Sidebar/Sidebar';
 import './Explore.css'
-import Widgets from '../Widgets/Widgets';
 import { Link, Outlet } from 'react-router-dom';
 
 const url = 'https://webit-news-search.p.rapidapi.com/trending?language=en';
